@@ -72,7 +72,7 @@ const Home = () => {
                   <Linkedin className="text-blue-600" size={24} />
                 </a>
                 <a 
-                  href="https://github.com" 
+                  href="https://github.com/Naveenkumar-1411" 
                   target="_blank" 
                   rel="noopener noreferrer"
                   className="p-3 bg-white rounded-full shadow-md hover:shadow-lg transition-all duration-300 hover:scale-110"
@@ -86,8 +86,12 @@ const Home = () => {
             <div className={`lg:w-1/2 flex justify-center ${isVisible ? 'animate-fadeInRight' : 'opacity-0'}`}>
               <div className="relative">
                 <div className="w-80 h-80 bg-gradient-to-br from-indigo-400 to-purple-500 rounded-full animate-float"></div>
-                <div className="absolute inset-4 bg-white rounded-full flex items-center justify-center">
-                  <div className="text-6xl font-bold gradient-text">NK</div>
+                <div className="absolute inset-4 bg-white rounded-full flex items-center justify-center overflow-hidden">
+                  <img
+                    src="/profile.jpeg"
+                    alt="Naveen Kumar P"
+                    className="w-full h-full object-cover rounded-full"
+                  />
                 </div>
                 {/* Floating elements */}
                 <div className="absolute -top-4 -right-4 w-16 h-16 bg-yellow-400 rounded-full animate-pulse"></div>

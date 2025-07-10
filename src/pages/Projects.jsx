@@ -28,7 +28,7 @@ const Projects = () => {
       title: "PoultryCare",
       period: "Oct 2024 - Present",
       description: "A mobile app for poultry farm staff to track feed, bird weight, and medications, improving accuracy and operational productivity.",
-      technologies: ["React Native", "JavaScript", "Database Management", "Data Analytics"],
+      technologies: ["React Native", "JavaScript"],
       features: [
         "Feed tracking system",
         "Bird weight monitoring",
