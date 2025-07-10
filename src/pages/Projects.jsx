@@ -127,17 +127,7 @@ const Projects = () => {
                       </div>
 
                       {/* Mock Phone Display */}
-                      <div className="mt-8">
-                        <div className="w-48 h-96 bg-gray-900 rounded-3xl p-2 mx-auto">
-                          <div className="w-full h-full bg-gradient-to-br from-indigo-400 to-purple-500 rounded-2xl flex items-center justify-center">
-                            <div className="text-white text-center">
-                              <Smartphone size={48} className="mx-auto mb-4" />
-                              <p className="text-sm font-medium">{project.title}</p>
-                              <p className="text-xs opacity-75">Mobile App</p>
-                            </div>
-                          </div>
-                        </div>
-                      </div>
+                      
                     </div>
                   </div>
                 </div>
