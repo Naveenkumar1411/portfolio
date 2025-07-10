@@ -111,16 +111,7 @@ const Projects = () => {
                         </div>
                       </div>
 
-                      <div className="flex space-x-4">
-                        <button className="btn-primary flex items-center space-x-2">
-                          <ExternalLink size={18} />
-                          <span>View Demo</span>
-                        </button>
-                        <button className="btn-secondary flex items-center space-x-2">
-                          <Github size={18} />
-                          <span>Source Code</span>
-                        </button>
-                      </div>
+                      
                     </div>
 
                     {/* Project Features */}
