@@ -43,7 +43,7 @@ const About = () => {
   const experience = {
     position: "React Native Developer",
     company: "Maaya Software Solutions Pvt. Ltd., Namakkal",
-    duration: "1.7 years of experience",
+    duration: "1.10 years of experience",
     description: "Developing mobile applications using React Native with focus on high-quality, reusable code and complex UI components."
   };
 
@@ -194,5 +194,6 @@ const About = () => {
     </div>
   );
 };
+
 
 export default About;
